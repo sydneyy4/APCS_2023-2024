@@ -1,0 +1,7 @@
+//variable intiger "n" declared by 'int n = 5;'
+//String s = 'Hello, world!'
+//String s holds memory & is reference to class String w/ the actual object ("Hello, world!")
+//each letter of String s ("Hello, world!") is separate (start counting them from 0 like an array)
+//if only want "Hello" (first 5 letters), you start at 0 & end at one # past the # of last letter --> s.substring(0,5)
+//stating only one # prints the letters starting from that number until end of string --> s.substring(7) ---> 'world!'
+//

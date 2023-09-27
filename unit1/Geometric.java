@@ -2,9 +2,10 @@ public class Geometric
 {
     public static void main(String[] args)
     {
-        System.out.println();
-        for (int i = 1; i <= 15; i++){
-            System.out.println(i *3);
+        int value = 3;
+        for (int i = 0; i <= 15; i++){
+            System.out.println(value);
+            value = 3*value;
         }
     }
 }
