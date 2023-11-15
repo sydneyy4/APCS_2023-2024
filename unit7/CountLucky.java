@@ -7,6 +7,12 @@ public class CountLucky{
 			}
 		}
 		return count;
+
+		//int count = 0;
+		//for (int value : nums)
+			//if (value%7 == 0 || value%10 == 7){
+				//count ++;
+			//}
 	}
 	public static int testCountLucky(int[] nums, int expected){
 		int result = countLucky(nums);
