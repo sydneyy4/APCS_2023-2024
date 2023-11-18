@@ -5,10 +5,7 @@ public class TotalZList{
 		int total = 0;
 
 		for (String x : strings){
-			if (x.substring(0,1).equals("z")){
-				total += x.length();
-			}
-			if (x.substring(0,1).equals("Z")){
+			if ((x.substring(0,1).equals("z")) || (x.substring(0,1).equals("Z"))){
 				total += x.length();
 			}
 		}

@@ -3,15 +3,24 @@ import java.util.*;
 public class CountLuckyList {
 	public static int countLucky(ArrayList<Integer> nums){
 	int count = 0;
-		for (int i = 0; i < nums.size(); i++){
-			int a = nums.get(i);
-			if (a%7 == 0 || a%10 == 7){
-				count ++;
+	for (int x : nums){
+		if (x%7 == 0 || x%10 == 7){
+			count ++;
 			}
 		}
-		return count;
-
+	return count;
 	}
+
+
+		//for (int i = 0; i < nums.size(); i++){
+		//	int a = nums.get(i);
+		//	if (a%7 == 0 || a%10 == 7){
+		///		count ++;
+		//	}
+		//}
+	//	return count;
+
+	//}
 
 	public static int testCountLucky (ArrayList<Integer> nums, int expected){
 		int result = countLucky(nums);
